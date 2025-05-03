@@ -1,1 +1,0 @@
-git@github.com:Little4stfu/her.git

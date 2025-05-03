@@ -18,10 +18,17 @@ h1{
     
 }
 
+body{
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
 
 #heading{
     font-size: 60px;
     font-weight:bolder;
+
 }
 
 li{
@@ -31,6 +38,12 @@ li{
 }
 li:hover{
     transform: scale(1.05);
+}
+
+li{
+  opacity: 0;
+  transform: translateY(3px);
+  animation: fadeIn 0.5s ease-in forwards;
 }
 
 .fade-in-text{
