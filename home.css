@@ -19,8 +19,10 @@ h1{
 }
 
 body{
+  background-image: url(./image/Green\ &\ Pink\ Pastel\ Floral\ Organic\ Flower\ Icon\ Flower\ Shop\ Logo\ \(1\).png);
+  background-size: contain;
   opacity: 0;
-  transform: translateY(10px);
+  transform: translateY(15px);
   animation: fadeIn 0.5s ease-in forwards;
 }
 
@@ -40,11 +42,7 @@ li:hover{
     transform: scale(1.05);
 }
 
-li{
-  opacity: 0;
-  transform: translateY(3px);
-  animation: fadeIn 0.5s ease-in forwards;
-}
+
 
 .fade-in-text{
     opacity: 0;
